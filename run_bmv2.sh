@@ -26,6 +26,6 @@ p4c --std p4-14 bmv2/excalibur_bmv2.p4 -o output
 sudo PYTHONPATH=$PYTHONPATH:$BMV2_PATH/mininet/ python2 script/topo.py \
     --behavioral-exe $SWITCH_PATH \
     --cli $CLI_PATH \
-    --json output/torp_bmv2.json \
+    --json output/excalibur_bmv2.json \
     --mode l3 
 
